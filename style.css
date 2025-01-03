@@ -1,0 +1,43 @@
+/* General reset for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the body */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Style for the header */
+h1 {
+    color: #2c3e50; /* Dark blue */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Style for the paragraph */
+p {
+    font-size: 1.2rem;
+    color: #34495e; /* Slightly lighter dark blue */
+}
+
+/* Add some spacing */
+.container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
